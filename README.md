@@ -1,19 +1,6 @@
-# live-chat
+# Live Chat app
 
-## Project setup
-```
-npm install
-```
+Live chat app created with Vue and Firebase
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Just create an account and start chating
+Live Link: https://live-chat-297b8.web.app/

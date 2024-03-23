@@ -1,7 +1,3 @@
-Certainly! Let's move the "Start chatting" section to a more prominent position:
-
----
-
 ## Live Chat with Firebase Database
 
 This project is a real-time chat application built using Vue.js and Firebase. It enables users to communicate in real-time with each other, while also providing authentication and data storage functionalities through Firebase services.

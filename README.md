@@ -46,11 +46,3 @@ You can access the live chat application
 ### How to Contribute:
 
 Contributions to this project are welcome! If you have any ideas for improvements, feel free to fork the repository, make your changes, and submit a pull request.
-
-### License:
-
-This project is licensed under the [MIT License](LICENSE). Feel free to use and modify it for your own purposes.
-
----
-
-Now, the "Start chatting" section is positioned higher in the README, making it more visible to users.

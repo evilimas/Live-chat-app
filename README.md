@@ -12,7 +12,7 @@ This project is a simple real-time chat application built using Vue.js and Fireb
 
 Just create an account or log in with your credentials.
 You can access the live chat application
-**[Here](https://live-chat-297b8.web.app/).**
+**[Here](https://app-live-chat.netlify.app/).**
 
 ### Getting Started:
 

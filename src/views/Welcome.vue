@@ -1,6 +1,7 @@
 <template>
   <div class="welcome container">
-    <p>Welcome</p>
+    <h1>{{ message }}</h1>
+
     <div v-if="showLogin">
       <h2>Login</h2>
       <LoginForm @login="enterChat" />
@@ -27,6 +28,7 @@ import { useRouter } from 'vue-router';
 
 const showLogin = ref(true);
 const router = useRouter();
+const message = showLogin ? 'Welcome' : '';
 
 const enterChat = () => {
   router.push({ name: 'chatroom' });
@@ -34,6 +36,9 @@ const enterChat = () => {
 </script>
 
 <style>
+.welcome h1 {
+  color: rgb(62, 62, 194);
+}
 .welcome {
   text-align: center;
   padding: 20px 0;

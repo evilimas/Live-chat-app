@@ -1,8 +1,7 @@
 <template>
   <div class="welcome container">
-    <h1>{{ message }}</h1>
-
     <div v-if="showLogin">
+      <h1>{{ message }}</h1>
       <h2>Login</h2>
       <LoginForm @login="enterChat" />
       <p>

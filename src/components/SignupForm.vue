@@ -16,17 +16,19 @@
 </template>
 
 <script setup>
+// imports
 import { ref } from 'vue';
 import useSignup from '../composables/useSignup';
-
-const { error, signup } = useSignup();
 
 //refs
 const displayName = ref('');
 const email = ref('');
 const password = ref('');
-const emit = defineEmits(['signup']);
 
+const emit = defineEmits(['signup']);
+const { error, signup } = useSignup();
+
+// functions
 const handleSubmit = async () => {
   await signup(email.value, password.value, displayName.value);
   console.log('user signed up!');

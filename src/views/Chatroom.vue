@@ -17,11 +17,10 @@ import getUser from '../composables/getUser';
 
 const { user } = getUser();
 const router = useRouter();
+
 watchEffect(() => {
   if (!user.value) {
     router.push({ name: 'welcome' });
   }
 });
 </script>
-
-<style></style>

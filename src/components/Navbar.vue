@@ -9,12 +9,14 @@
 </template>
 
 <script setup>
+// imports
 import useLogout from '../composables/useLogout';
 import getUser from '../composables/getUser';
 
 const { logout, error } = useLogout();
 const { user } = getUser();
 
+// functions
 const handleClick = async () => {
   await logout();
   if (!error.value) {

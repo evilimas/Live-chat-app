@@ -16,16 +16,16 @@ body {
 }
 button {
   text-decoration: none;
-  background: #5ae3ca;
-  color: white;
+  background: #4672e9;
+  color: rgb(240, 240, 240);
   font-weight: bold;
   border: 0;
   border-radius: 20px;
-  padding: 10px 20px;
+  padding: 12px 24px;
   cursor: pointer;
 }
 button:hover {
-  background: #3ba592;
+  background: #1d554b;
   transition: 0.4s;
   transform: scale(1.1);
 }

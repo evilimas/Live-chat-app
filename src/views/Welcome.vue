@@ -36,7 +36,7 @@ const enterChat = () => {
 
 <style>
 .welcome h1 {
-  color: rgb(62, 62, 194);
+  color: rgb(92, 92, 218);
 }
 .welcome {
   text-align: center;

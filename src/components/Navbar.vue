@@ -1,7 +1,9 @@
 <template>
   <nav v-if="user">
     <div>
-      <p>Hey there {{ user?.displayName }}</p>
+      <p>
+        Hey there <span class="display-name">{{ user?.displayName }}</span>
+      </p>
       <p class="email">Currently logged in as {{ user?.email }}</p>
     </div>
     <button @click="handleClick">Logout</button>
@@ -41,5 +43,8 @@ nav p {
 nav p.email {
   font-size: 14px;
   color: #999;
+}
+.display-name {
+  font-weight: bold;
 }
 </style>

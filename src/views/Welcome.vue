@@ -27,7 +27,7 @@ import { useRouter } from 'vue-router';
 
 const showLogin = ref(true);
 const router = useRouter();
-const message = showLogin ? 'Welcome' : '';
+// const message = showLogin ? 'Welcome' : '';
 
 const enterChat = () => {
   router.push({ name: 'chatroom' });

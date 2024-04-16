@@ -20,6 +20,7 @@
 </template>
 
 <script setup>
+// imports
 import SignupForm from '../components/SignupForm.vue';
 import LoginForm from '../components/LoginForm.vue';
 import { ref } from 'vue';
@@ -27,7 +28,6 @@ import { useRouter } from 'vue-router';
 
 const showLogin = ref(true);
 const router = useRouter();
-// const message = showLogin ? 'Welcome' : '';
 
 const enterChat = () => {
   router.push({ name: 'chatroom' });
